@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_designation" table="vcl_designation">
+
+	<id name="designationId" type="integer" column="designation_id">
+        <generator class="increment"/>
+    </id>
+    <property name="designationName" column="designation_nm" type="string"/>
+    <property name="departmentId" column="department_id" type="integer"/>
+    <property name="roleId" column="role_id" type="integer"/>
+	     
+</class>
+</hibernate-mapping>

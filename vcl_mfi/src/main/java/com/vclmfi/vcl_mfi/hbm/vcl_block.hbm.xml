@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_block" table="vcl_block">
+
+	<id name="block_id" type="integer">
+        <generator class="increment"/>
+    </id>
+    
+<property name="district_id" /> 
+<property name="block_short_cd" /> 
+<property name="block_long_name" />
+<property name="state_id" />
+
+</class>
+
+
+ 
+</hibernate-mapping>

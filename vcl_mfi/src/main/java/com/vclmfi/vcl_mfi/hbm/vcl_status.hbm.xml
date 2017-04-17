@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_status" table="vcl_status">
+
+	<id name="status_id" type="integer">
+        <generator class="increment"/>
+    </id>
+  	<property name="status_code"/>
+  	<property name="status_name"/>
+  	<property name="status_description"/>
+  	<property name="status_type_id"/>
+	
+</class>
+</hibernate-mapping>

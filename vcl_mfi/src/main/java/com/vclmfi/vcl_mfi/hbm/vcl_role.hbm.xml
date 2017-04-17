@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_role" table="vcl_role">
+
+	<id name="role_id" type="integer">
+        <generator class="increment"/>
+    </id>
+ 	<property name="role_name"/>
+  	<property name="parent_role_id"/>
+</class>
+</hibernate-mapping>

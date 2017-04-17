@@ -1,0 +1,26 @@
+package com.vclmfi.vcl_mfi.pojo;
+
+public class vcl_education {
+	private int education_id;
+	private String education_nm;
+	
+	public vcl_education() {
+		super();
+	}
+
+	public int getEducation_id() {
+		return education_id;
+	}
+
+	public void setEducation_id(int education_id) {
+		this.education_id = education_id;
+	}
+
+	public String getEducation_nm() {
+		return education_nm;
+	}
+
+	public void setEducation_nm(String education_nm) {
+		this.education_nm = education_nm;
+	}
+}

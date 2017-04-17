@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_vill_town_city" table="vcl_vill_town_city">
+
+	<id name="vtc_id" />
+ 	<property name="state_id"/>
+  	<property name="district_id"/>
+  	<property name="block_id"/>
+  	<property name="vtc_flag"/>
+  	<property name="vtc_short_cd"/>
+  	<property name="vtc_long_name"/>
+  	
+  	
+     
+</class>
+</hibernate-mapping>

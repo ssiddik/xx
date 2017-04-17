@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  
+<hibernate-mapping>
+
+
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_organisation_branch" table="vcl_organisation_branch">
+
+ <id name="org_brnach_id" />
+ <property name="org_custer_id"/>
+ <property name="branch_name"/>
+ <property name="branch_head_id"/>
+ 
+ </class>
+</hibernate-mapping>

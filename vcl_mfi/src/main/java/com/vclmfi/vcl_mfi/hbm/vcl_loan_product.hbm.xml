@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_loan_product" table="vcl_loan_product">
+
+	<id name="l_prdct_id" type="integer">
+        
+    </id>
+  	<property name="l_type_id"/>
+	<property name="l_prdct_cd"/>
+	<property name="l_prdct_name"/>
+	<property name="l_prdct_amnt"/>
+	<property name="l_prdct_tenure"/>
+	<property name="l_prdct_roi"/>
+	<property name="l_prdct_crt_dt"/>
+	<property name="audit_flag"/>
+	<property name="prdct_active_flag"/>
+	
+	
+</class>
+</hibernate-mapping>
