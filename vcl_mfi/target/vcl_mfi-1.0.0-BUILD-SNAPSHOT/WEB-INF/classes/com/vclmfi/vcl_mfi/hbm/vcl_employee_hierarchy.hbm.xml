@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_employee_hierarchy" table="vcl_employee_hierarchy">
+
+	<id name="emp_hierarchy_id" type="integer">
+        <generator class="increment"/>
+    </id>
+	<property name="emp_id" />
+   	<property name="emp_role_id" /> 
+   	<property name="parent_emp_id" /> 
+   	<property name="level_from_parent" /> 
+   	<property name="hierarchy_start_date" /> 
+   	<property name="hierarchy_end_date" />   
+
+</class>
+</hibernate-mapping>

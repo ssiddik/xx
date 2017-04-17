@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_contact_type" table="vcl_contact_type">
+
+	<id name="contact_type_id"/>
+        
+    
+    <property name="contact_type_name"/>
+  
+         <property name="contact_type_desc"/>
+  
+</class>
+</hibernate-mapping>

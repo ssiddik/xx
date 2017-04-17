@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+ 
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_person" table="vcl_person">
+
+<id name="person_id"/>
+<property name="person_first_name"/>
+<property name="person_middle_name"/>
+<property name="person_last_name"/>
+<property name="age"/>
+<property name="gender"/>
+<property name="dob"/>
+<property name="yob"/>
+<property name="person_type_id"/>
+<property name="household_id"/>
+</class>
+ 
+
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.vclmfi.vcl_mfi.pojo.vcl_state" table="vcl_state">
+
+    <id name="state_id" type="integer">
+        <generator class="increment"/>
+    </id>
+	<!-- <id name="state_id"/> -->
+ 	<property name="state_short_cd"/>
+  	<property name="state_name"/>
+  	<property name="state_head_id"/>
+  	
+     
+</class>
+</hibernate-mapping>
